@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: planetarypy
-  version: "0.84.1"
+  version: "0.84.2"
   python_min: "3.11"
 
 package:
@@ -11,7 +11,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: df2d25e7754706d72ed4579612020e284b771eaba6845bfb9f01baae6620878a
+  sha256: 27c2df5db946b1126ebae29db69517ed1540398b8482dde2e97bea319c2edb6b
 
 build:
   noarch: python
